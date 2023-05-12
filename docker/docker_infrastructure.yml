@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+    
+    rabbitmq:
+        image: "rabbitmq:3-management"
+        container_name: RabbitMQ
+        environment:
+            - RABBITMQ_DEFAULT_USER=admin
+            - RABBITMQ_DEFAULT_PASS=admin
+        ports:
+            # AMQP 
+            - 5672:5672
+            # HTTP
+            - 15672:15672
+        volumes:
+            - rabbitmq_data:/data
+
+volumes:
+  rabbitmq_data:
