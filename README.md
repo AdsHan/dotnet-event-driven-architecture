@@ -7,4 +7,4 @@ Demonstração da utilização de Eventos de Domínio e Eventos de Integração 
 - A infraestrutura da aplicação será criada através do docker compose /docker/docker_infrastructure.yml.
 
 # Sobre
-Este projeto foi desenvolvido por Anderson Hansen.
+Este projeto foi desenvolvido por Anderson Hansen. 
