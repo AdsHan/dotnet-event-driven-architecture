@@ -1,5 +1,5 @@
 # dotnet-event-driven-architecture
-Demonstração da utilização de Eventos de Domínio e Eventos de Integração em uma aplicação .NET.
+Demonstração da utilização de Eventos de Domínio e de Integração em uma aplicação .NET.
 
 # Como executar:
 - Clonar / baixar o repositório em seu workplace.
